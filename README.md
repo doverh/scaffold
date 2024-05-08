@@ -22,5 +22,9 @@ Details on the setup can be found in [this video here](https://www.youtube.com/w
     $ make install
 9.Create Code
 
+### Run Unit Test
+
+python -m unittest testPwdGen.py
+
 Command to locate Scaffold
     which pyton
