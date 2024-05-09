@@ -1,8 +1,8 @@
 install:
 	pip install --upgrade pip
-	
+
 lint:
-	pylint **/*.py
+	pylint *.py
 
 test:  
 	pytest -m pytest -vv 
