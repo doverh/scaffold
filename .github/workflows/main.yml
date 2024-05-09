@@ -26,6 +26,7 @@ jobs:
         make test
     - name: Format code
       run: |
+        pip install black
         make format
     
     
