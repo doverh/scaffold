@@ -22,6 +22,7 @@ jobs:
         find . -name '*.py' -exec pylint {} \;
     - name: Test with pytest
       run: |
+        pip install pytest
         make test
     - name: Format code
       run: |
