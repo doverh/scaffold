@@ -16,9 +16,10 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Lint with pylint
+        pip install pylint
+    - name: Analysing the code with pylint
       run: |
-        make lint
+        find . -name '*.py' -exec pylint {} \;
     - name: Test with pytest
       run: |
         make test
