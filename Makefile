@@ -4,8 +4,8 @@ install:
 lint:
 	pylint *.py
 
-test:  
-	pytest -m pytest -vv 
+test:
+	python -m pytest -vv testPwdGen.py
 	
 format:
 	black *.py
