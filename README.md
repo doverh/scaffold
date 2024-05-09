@@ -6,20 +6,32 @@ Details on the setup can be found in [this video here](https://www.youtube.com/w
 ## STEPS TO CREATE PROJECT
 
 1.Create git hub project
+
 2.Clone the project local
+
+- Add a ssh-key: ssh-keygen -t rsa
+- Retrieve the ssh-key: cat /home/ec2-user/.ssh/id_rsa.pub
+- Add key on github: https://github.com/settings/keys
+
 3.Create project files using touch
     a.Makefile
     b.hello.py
     c.test_hello.py
     d.requirements.txt
+
 4.Create Virtual local env
     $ python3 -m venv ~/.scaffold
+
 5.Activate virtual env
     $ source ~/.scaffold/bin/activate
+
 6.Populate MakeFile
+
 7.Add packages to install in the requirements.txt file
+
 8.Install
     $ make install
+
 9.Create Code
 
 ### Run Unit Test
