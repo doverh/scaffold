@@ -1,6 +1,6 @@
 install:
-	python -m pip install --upgrade pip
-
+	pip install --upgrade pip
+	
 lint:
 	pylint **/*.py
 
